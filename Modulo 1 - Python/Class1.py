@@ -1,8 +1,8 @@
-# Forma de crear variables y demas secuencias de programación de pyhton.
 
 #Leccion 1
 
-    #Variables
+                                #Variables
+
 char='a' #Esto es un caracter
 print(char)
 string="Hola Mundo" #Esto es una cadena de caracteres
@@ -14,10 +14,57 @@ print(float)
 boolean=True #Esto es un boleano
 print(boolean)
 
+                                #Math
 
+#Variables para utilizar
+my_int=5 
+my_float=2.0
+my_char="*" 
+
+#Esto es una suma
+var=my_int+my_float
+print(var)
+
+#Esto es una resta
+var=my_int-my_float
+print(var)
+
+#Esto es una multiplicacion
+var=my_int*my_float
+print(var)
+
+#Esto es una division
+var=my_int/my_float
+print(var)
+
+#Otros
+var=my_char*my_int
+print(var)
+
+                                #Logic Ops
+#Menor que
+var=my_int<my_float
+print(var)
+#Mayor que
+var=my_int>my_float
+print(var)
+#Menor o igual que
+var=my_int<=my_float
+print(var)
+#Mayor o igual que
+var=my_int>=my_float
+print(var)
+#Igual que
+var=my_int==my_float
+print(var)
+#Diferente que
+var=my_int!=my_float
+print(var)
+
+                                #Prints
 
 my_name="Jose"
 my_surname="Garcia"
 
-print(f"{my_name} {my_surname}")
+#print(f"{my_name} {my_surname}")
 
