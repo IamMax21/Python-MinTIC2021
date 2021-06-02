@@ -63,8 +63,16 @@ print(var)
 
                                 #Prints
 
-my_name="Jose"
-my_surname="Garcia"
+name="Max"
+surname="Jimenez"
 
-#print(f"{my_name} {my_surname}")
+print(name+" "+surname)
+
+print(name, surname)
+
+print(name, surname, end="! ")
+
+print(f"{name} {surname}")
+
+print("{} {}".format(name, surname))
 
