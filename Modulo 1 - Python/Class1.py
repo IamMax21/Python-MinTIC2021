@@ -76,6 +76,7 @@ print(f"{name} {surname}")
 
 print("{} {}".format(name, surname))
 
+#Ejercicio 1. Imprimir Meses del año de manera indirecta
 var1="Enero"
 var2="Febrero"
 var3="Marzo"
