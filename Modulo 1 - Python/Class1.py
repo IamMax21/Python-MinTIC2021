@@ -84,3 +84,17 @@ var4="Abril"
 var5="Mayo"
 
 print("{} {} {} {} {}".format(var1,var2,var3,var4,var5))
+
+#Ejercicio 2. Formatea el texto usando las siguientes variables
+name1="Max Jimenez"
+email1="mjp@gmail.com"
+address1="Carrera 8#35B-67"
+
+print(f"Name:{name1}\nEmail:{email1}\nAdrress:{address1}")
+
+#Ejercicio 3. Formatea el texto solicitando las siguientes variables
+name1=input("Escribe tu nombre")
+email1=input("Escribe tu email")
+address1=input("Escribe tu dirección de domicilio")
+
+print(f"Name:{name1}\nEmail:{email1}\nAdrress:{address1}")
