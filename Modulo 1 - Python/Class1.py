@@ -93,8 +93,8 @@ address1="Carrera 8#35B-67"
 print(f"Name:{name1}\nEmail:{email1}\nAdrress:{address1}")
 
 #Ejercicio 3. Formatea el texto solicitando las siguientes variables
-name1=input("Escribe tu nombre")
-email1=input("Escribe tu email")
-address1=input("Escribe tu dirección de domicilio")
+name2=input("Escribe tu nombre ")
+email2=input("Escribe tu email ")
+address2=input("Escribe tu dirección de domicilio ")
 
-print(f"Name:{name1}\nEmail:{email1}\nAdrress:{address1}")
+print(f"Name:{name2}\nEmail:{email2}\nAdrress:{address2}")
