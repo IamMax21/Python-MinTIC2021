@@ -76,3 +76,10 @@ print(f"{name} {surname}")
 
 print("{} {}".format(name, surname))
 
+var1="Enero"
+var2="Febrero"
+var3="Marzo"
+var4="Abril"
+var5="Mayo"
+
+print("{} {} {} {} {}".format(var1,var2,var3,var4,var5))
