@@ -52,3 +52,14 @@ print((True or "jjjj"!="j"*4 or True) or (True or True or False))
 #NOT. CHANGE THE RESULT
 print("NOT")
 print(not True)
+
+#Ejercicio
+
+number1=float(input("Qúe número?"))
+if number1==0:
+    print("Es 0")
+elif number1<0:
+    print("Es negativo")
+else:
+    print("Es positivo")
+
