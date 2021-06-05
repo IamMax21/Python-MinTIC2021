@@ -29,4 +29,4 @@ myN=int(input("Cuantas veces quieres que se repita?: "))
 print(myString*myN)
 """
 #Ejercicio 6. Escribe un programa que no permita hacer un salto de linea usando el comando print(1); print(2)
-print(1, sep=""); print(2)
+print(1, end=""); print(2)
