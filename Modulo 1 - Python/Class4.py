@@ -42,4 +42,5 @@ input2=True
 input3=False
 input4=False
 
-print(not(input1 or input2 or input3 or input4))
+print(not((input1 and True) or input2 or input3 or input4))
+
