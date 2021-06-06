@@ -49,37 +49,6 @@ print(True or "jjjj"!="j"*4 or True)
 
 print((True or "jjjj"!="j"*4 or True) or (True or True or False))
 
-#NOT. CHANGE THE RESULT
+#NOT. Change the result
 print("NOT")
 print(not True)
-
-#Ejercicio
-number1=input("Digite un número")
-
-if number1.lstrip("-").isdigit()==False:
-    print("No digitaste ún número")
-else:
-    number1=float(number1)
-    if number1==0:
-        print("Es 0")
-    elif number1<0:
-        print("Es negativo")
-    else:
-        print("Es positivo")
-
-#Métodos
-
-number0=input("Digite un número")
-print(number0.startswith("-"))
-"""
-El metodo .startswith sirve para identificar el caracter con el que empieza un valor de una variable.
-En este caso utilizamos este metod para poder identificar si el input trae un número negativo mediante la identificacion del signo de resta (-)
-Para cuando existe una coincidencia, el metodo retorna TRUE
-Para cuando no existe una coincidencia, el metodo retorna FALSE
-"""
-print(number0.lstrip("-"))
-"""
-El metodo .lstrip sirve evaluar y eliminar el primer caracter del del valor de una variable.
-Para cuando existe una coincidencia, el metodo elimina dicho caracter.
-Para cuando no existe una coincidencia, el metodo retorna el mismo valor.
-"""
