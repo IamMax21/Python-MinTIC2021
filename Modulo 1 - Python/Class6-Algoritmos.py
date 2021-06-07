@@ -28,8 +28,11 @@ else:
     else:
         print(f"You Lose. The winner number is {numberAl}")
 
-#Métodos
+    
 
+
+
+#Métodos
 number0=input("Digite un número: ")
 print(number0.startswith("-"))
 """
