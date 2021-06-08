@@ -75,8 +75,6 @@ else:
             print("D")
 
 
-
-
 #Metodos
 """
 Modulo: Para sacar el modulo de una division en python se hace mediante el caracter porcentual "%"
