@@ -26,12 +26,29 @@ elif gender=="M":
     print(f"{gender}asculino")
 else:
     print("Dato Ingresado Invalido")
-"""
+
 #Algoritmo 4. Detectar un email bien escrito.
 email=input("Escribe tu email: ")
 x=email.find("@")!=-1
-y=(email.find(".com")!=-1 or email.find(".co")!=-1)
+y=email.find(".com")!=-1 or email.find(".co")!=-1
+
 if  x==True and y==True:
+    print("Valido")
+else:
+    print("Invalido")
+"""
+
+#Algoritmo 5. Validar que el sexo y el email no esten vacios, de estar vacios imprimir "Invalido"
+gender=input("Insert your gender (F/M): ").upper()
+email=input("Escribe tu email: ")
+x=email.find("@")!=-1
+y=email.find(".com")!=-1 or email.find(".co")!=-1
+
+
+
+if  gender=="" or email=="":
+    print("Campos Vacios")
+elif x==True and y==True and (gender=="F" or gender=="M"):
     print("Valido")
 else:
     print("Invalido")
