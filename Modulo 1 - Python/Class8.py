@@ -6,7 +6,7 @@ if month>12:
     print("Invalido")
 else:
     print(f"El mes es: {year[month]}")
-"""
+
 #Algoritmo 2. Crea un algoritmo que pida al usuario digitar un año. El programa debe determinar si es biciesto o no.
 
 year=input("Digite un año: ")
@@ -28,6 +28,26 @@ else:
                     print("Es biciesto")
                 else:
                     print("No es biciesto")
+"""
+#Algoritmo 3. Determine if a student can acces a government subsidy to acces to school educaction.
+#There are 3 requeriment:
+    # 1. Must not be farther tan 40km to the round of school
+    # 2. Have more than 2 brothers
+    # 3. Famili income is lower tan 1000 dollars.
+
+print("Welcome to the Verification System of Government!")
+adressDistance=float(input("Whrite the km of your house to de School: "))
+numberBrothers=int(input("How many brothers you have?: "))
+moneyFamily=float(input("How much money does your family earn?: $"))
+
+if adressDistance<40 and numberBrothers>2 and moneyFamily<1000:
+    print("Valid")
+else:
+    print("Invalid")
+
+#Algoritmo 4. 
+
+
 
 
 
