@@ -28,7 +28,7 @@ else:
                     print("Es biciesto")
                 else:
                     print("No es biciesto")
-"""
+
 #Algoritmo 3. Determine if a student can acces a government subsidy to acces to school educaction.
 #There are 3 requeriment:
     # 1. Must not be farther tan 40km to the round of school
@@ -44,8 +44,22 @@ if adressDistance<40 and numberBrothers>2 and moneyFamily<1000:
     print("Valid")
 else:
     print("Invalid")
+"""
+#Algoritmo 4. Escriba un algoritmo que permita retirar dinero de una cuenta siempre que el monto a retirar sea multiplo de 5 y que tenga suficiente dinero
+# dicha cuenta.
 
-#Algoritmo 4. 
+#Input: valorRetiro y saldoCuenta
+
+print("Sistema Bancario X")
+
+saldoCuenta=int(input("¿Cuanto dinero tiene en la cuenta?: $"))
+valorRetiro=int(input("¿Cuanto dinero desea retirar?: $"))
+
+if valorRetiro%5==0 and (valorRetiro+0.5)<saldoCuenta:
+    print(saldoCuenta-valorRetiro-0.5)
+else:
+    print(saldoCuenta)
+
 
 
 
