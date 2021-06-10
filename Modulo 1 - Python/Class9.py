@@ -1,5 +1,5 @@
 
-
+"""
 #Algoritmo 1. Imprima el valor minimo y maximo.
 string1=input("Mande el String: ")
 
@@ -9,7 +9,7 @@ numberMAX=max(mylist)
 numberMIN=min(mylist)
 
 print(f"El número máximo es: {numberMAX} y el minimo es: {numberMIN}" )
-
+"""
 #Algoritmo 2. 
 # Crea un algoritmo que permita encontrar una palabra X en una frase determinada.
 # En el input 1 se entregan las palabras a buscar separadas por espacio
@@ -18,10 +18,38 @@ print(f"El número máximo es: {numberMAX} y el minimo es: {numberMIN}" )
 
 words=input("Palabras: ")
 frase=input("Frase: ")
-
+contador=0
+contador2=0
 myWords=words.split(" ")
 myFrase=frase.split(" ")
+#Primera Palabra
+if myWords[0]==myFrase[0]:
+    contador=contador+1
+else:
+    contador+0
+if myWords[0]==myFrase[1]:
+    contador=contador+1
+else:
+    contador+0
+if myWords[0]==myFrase[2]:
+    contador=contador+1
+else:
+    contador+0
+#Segunda Palabra 
+if myWords[1]==myFrase[0]:
+    contador2=contador2+1
+else:
+    contador2+0
+if myWords[1]==myFrase[1]:
+    contador2=contador2+1
+else:
+    contador2+0
+if myWords[1]==myFrase[2]:
+    contador2=contador2+1
+else:
+    contador2+0
 
+print(f"{myWords[0]}: {contador} \n{myWords[1]}: {contador2} ")
 
 
 """
@@ -49,5 +77,7 @@ Segunda Forma:
     myCondicion=True
 
     print("Verdadero") if myCondicion else print("Falso")
+
+.len(mylist): Este metodo retorna la cantidad de elementos que se encuentran en una lista.
 
 """

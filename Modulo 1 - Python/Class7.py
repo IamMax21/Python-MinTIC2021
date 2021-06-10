@@ -86,7 +86,7 @@ pletamente por otro.
 .find("@"): Método que sirve para buscar un caracter particular dentro de un string. La salida de dicho metodo, es el numero indice
 en el que se encuentra ubicado dicho caracter; de no encontrarse el caracter dentro del String, entonces el metodo retorna -1
 in: sirve para evaluar una variable dentro de un rango especifico, ejemplo: 5 IN range (1, 5) (Cabe aclarar que el número 5 no 
-queda como una opcion valida dentro del rango, por lo que realmente el rango seria de 1 a 4).
+queda como una opcion valida dentro del rango, por lo que realmente el rango seria de 1 a 4). Tambien es utilizado para buscar elementos en una lista.
 
 
 """
