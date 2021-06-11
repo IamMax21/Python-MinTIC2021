@@ -48,10 +48,35 @@ if mylist==mylist2:
 else:
     print("No es palindromo")
 
+
+
+#Ejercicio 3. Calcula el impuesto de una propiedad mediante la formula impuesto=valorpropiedad*0.0065
+#Para esto el usuario debe digitar el numero del lote de la propiedad y luego el valor, si el usuario escribe 0, salir.
+
+lote=(int(input("Numero del lote: ")))
+valor=(int(input("Valor del inmueble: $")))
+is_valid=True
+
+while is_valid:
+    if lote>0:
+        impuesto=valor*0.0065    
+        print(f"Impuestos: ${impuesto}")
+        lote=(int(input("Numero del lote: ")))
+        valor=(int(input("Valor del inmueble: $")))
+        is_valid=True
+    else:
+        is_valid=False
+
+
+
+
+
+
 """
 Metodos
 
 .reverse(): Revierte el orden de una lista
 .append(x): Agrega el valor x al final de una lista
-
+.len(String o List): Metodo que me dice la cantidad de caracteres o elementos que tiene un String o Lista
+.type(x): Evalua el tipo de variable que esta contenido en la variable x.
 """
