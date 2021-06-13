@@ -78,11 +78,74 @@ for i in range(2,n+1):
         
 print(listPrimos)
 """
-#Ejercicio 2. 
+#Ejercicio 2. Dibujar las figuras utilizando while y for
+"""
+******
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+******
+
+
+n=6
+m=6
+
+while not m==0:
+    print("*"*m)
+    m-=1
+
+while n>0:
+    print("*"*n)
+    if n==1:
+        for i in range(2, 7):
+            print("*"*i)
+    n-=1    
+"""
+#Ejercicio 3. Dados los datos de dos listas, imprime los nombres junto a las edades de las personas.
+#Ejemplo:
+#   Jose 29
+#   Diana 28
+people=["Jonas","Julio","Mike","Mez"]
+ages=[25,30,31,39]
+
+for i in range(0, len(people)-1):
+    print(f"{people[i]} {ages[i]}")
+
+#Ejercicio 4. Dada una cadena de caracteres, determine cual es el caracter que mas se repite
+#y cuantas veces (case insensitive): +
+# Ejemplo: 
+# input="hola soy la letra mas repetida." 
+# Output= a 5
+
+phrase="hola soy la letra más repetida".replace(" ", "").replace("á","a").replace("é","e").replace("í","i").replace("ó","o").replace("ú","u")
+phrase.lower
+print(phrase)
+contador1=0
+contador2=0
+for i in range (0, len(phrase)):
+    char1=phrase[i]
+    contador1=phrase.count(char1)
+    if contador1>contador2:
+        contador2=contador1
+        char2=char1
+print(f"{char2} {contador2}")
+
+
+
 
 
 
 """
+charR=list[i]
+    for j in range (0, len(list)-1):
+        if charR==list[j]:
+            contador+=1
 For anidados
 Si el for permite recorrer una determinada lista, uno anidado permite recorrer todos los elementos que existen en diferentes listas.
 Ejemplo
@@ -90,6 +153,8 @@ for i in range(1,3):
     for j in range(1,10):
         print(f"I: {i} J: {j}")
 Donde se puede ver que por cada iterador i, el iterador j recorre toda una lista.
+
 Metodos
+.count(x): Permite contar el numero de veces que se repite un caracter dentro de una variable.
 """
 
