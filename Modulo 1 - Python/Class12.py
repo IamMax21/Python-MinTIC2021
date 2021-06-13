@@ -178,5 +178,8 @@ in count(x,y): Permite crear un rango donde X determina el numero inicial y Y de
 itertools: Libreria muy util para hacer ciertas tareas que tengan iteradores.
     permutations(xyz): Devuelve todas las posibles combinaciones que se pueden dar entre x, y, z. Debes guardar la informacion en una lista.
     list(permutations('ABC'))
+
+    list(compress(data, selector)): Crea una lista en donde "selector" es un True o False, y este valida la lista de "data"
+    por tanto, en la nueva lista solo se guardaran los elementos de data que tengan un True en la lista selector.
 """
 
