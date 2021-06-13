@@ -122,7 +122,7 @@ for i in range(0, len(people)-1):
 # Ejemplo: 
 # input="hola soy la letra mas repetida." 
 # Output= a 5
-
+"""
 phrase="hola soy la letra más repetida".replace(" ", "").replace("á","a").replace("é","e").replace("í","i").replace("ó","o").replace("ú","u")
 phrase.lower
 print(phrase)
@@ -135,8 +135,24 @@ for i in range (0, len(phrase)):
         contador2=contador1
         char2=char1
 print(f"{char2} {contador2}")
+"""
 
+#Ejercicio 5. Detectar un programa que evalue si los parentesis dentro de un String estan completos (abierto y cerrado)
 
+phrase="hola (soy) la letra (más) repetida".replace(" ","")
+index=0
+contador1=0
+contador2=0
+while index!=len(phrase)-1:
+    if phrase[index]=="(":
+        contador1+=1
+    elif phrase[index]==")":
+        contador2+=1        
+    index+=1
+if contador1==contador2:
+    print("Good")
+else:
+    print("Bad")
 
 
 
@@ -156,5 +172,11 @@ Donde se puede ver que por cada iterador i, el iterador j recorre toda una lista
 
 Metodos
 .count(x): Permite contar el numero de veces que se repite un caracter dentro de una variable.
+
+in count(x,y): Permite crear un rango donde X determina el numero inicial y Y determina la cantidad los saltos que va dar el iterador (si de dos en dos, tres en tres, etc)
+
+itertools: Libreria muy util para hacer ciertas tareas que tengan iteradores.
+    permutations(xyz): Devuelve todas las posibles combinaciones que se pueden dar entre x, y, z. Debes guardar la informacion en una lista.
+    list(permutations('ABC'))
 """
 
