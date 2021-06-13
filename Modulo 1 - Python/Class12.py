@@ -54,8 +54,8 @@ resultado=round(subtotal, 2)
 
 print(resultado)
 """
-#Ejercicio. Números primos, escribir los numeros primos en el rango (2,n)
-
+#Ejercicio 1. Números primos, escribir los numeros primos en el rango (2,n)
+"""
 n=int(input("Digite el limite superior del rango: "))
 contador=0
 boolPrimo=False
@@ -77,7 +77,8 @@ for i in range(2,n+1):
     print("")
         
 print(listPrimos)
-
+"""
+#Ejercicio 2. 
 
 
 
